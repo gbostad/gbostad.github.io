@@ -16,6 +16,7 @@ SELECT sum(n) FROM t;
 
 
 Test highlighting, some code from Postgresql documentation
+
 {% highlight plpgsql linenos %}
 CREATE FUNCTION logfunc2(logtxt text) RETURNS void AS $$
     DECLARE
